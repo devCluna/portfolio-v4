@@ -7,6 +7,9 @@ import Projects from './sections/Projects/Projects'
 import About from './sections/About/About'
 import Work from './sections/Work/Work'
 
+
+import resume from '../../assets/resume.pdf'
+
 const Home = () => {
     const [mobileMenuStatus, setMobileMenuStatus] = useState(false)
 
@@ -90,17 +93,14 @@ const Home = () => {
                 </li>
 
                 <li className='mobile-li'>
-                    <Link 
+                    <a 
                         onClick={()=>setMobileMenuStatus(!mobileMenuStatus)}
                         className='mobile-link'
-                        to="resume"
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact="true"
+                        href={resume}
+                        target='_blank'
                     >
                             Resume
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -175,16 +175,13 @@ const Home = () => {
                     </li>
 
                     <li className='desktop-li'>
-                        <Link 
-                            to="resume"
+                        <a 
+                            href={resume}
                             className='desktop-link'
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            exact="true"
+                            target="_blank"
                         >
                                 Resume
-                        </Link>
+                        </a>
                     </li>
                     
                     <li className='desktop-li'>

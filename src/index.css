@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700;800&family=Montserrat:wght@400;700;900&display=swap');
+
+@font-face {
+  font-family: LeagueSpartan;
+  src: url("./assets/fonts/LeagueSpartan-Bold.otf") format("opentype");
+}
+
 :root{
   
-  --step--2: clamp(0.78rem, calc(0.71rem + 0.35vw), 0.96rem);
-  --step--1: clamp(0.94rem, calc(0.84rem + 0.51vw), 1.20rem);
-  --step-0: clamp(1.13rem, calc(0.98rem + 0.73vw), 1.50rem);
-  --step-1: clamp(1.35rem, calc(1.15rem + 1.02vw), 1.88rem);
-  --step-2: clamp(1.62rem, calc(1.34rem + 1.41vw), 2.34rem);
-  --step-3: clamp(1.94rem, calc(1.56rem + 1.92vw), 2.93rem);
-  --step-4: clamp(2.33rem, calc(1.81rem + 2.59vw), 3.66rem);
-  --step-5: clamp(2.80rem, calc(2.11rem + 3.47vw), 4.58rem);
+  --step--2: clamp(0.65rem, calc(0.59rem + 0.29vw), 0.80rem);
+  --step--1: clamp(0.78rem, calc(0.70rem + 0.43vw), 1.00rem);
+  --step-0: clamp(0.94rem, calc(0.82rem + 0.61vw), 1.25rem);
+  --step-1: clamp(1.13rem, calc(0.95rem + 0.85vw), 1.56rem);
+  --step-2: clamp(1.35rem, calc(1.11rem + 1.18vw), 1.95rem);
+  --step-3: clamp(1.62rem, calc(1.30rem + 1.60vw), 2.44rem);
+  --step-4: clamp(1.94rem, calc(1.51rem + 2.16vw), 3.05rem);
+  --step-5: clamp(2.33rem, calc(1.75rem + 2.89vw), 3.82rem);
 
   /* Space */
   --space-3xs: clamp(0.31rem, calc(0.29rem + 0.12vw), 0.38rem);
@@ -36,6 +43,9 @@
 
 *{
   box-sizing: border-box;
+  /* font-family: 'Gemunu Libre', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 body{
@@ -79,9 +89,9 @@ p{
   margin: 0;
 }
 
-span{
+/* span{
   font-size: var(--step-1);
-}
+} */
 
 a{
   cursor: pointer;
