@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 1000px;
     display: flex;
+    margin-top: var(--space-2xl);
     padding: 0 var(--space-xs);
     padding-top: var(--space-3xl);
 }

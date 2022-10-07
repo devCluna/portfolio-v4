@@ -8,6 +8,7 @@ const Data = {
                 id: uniqid(),
                 title:"Valorant Landing Page",
                 description:"An unoficial valorant landing page concept",
+                alt: "website screenshot",
                 techs:["react", "node"],
                 links:{
                     live: "https://valorant-landing-page-concept.netlify.app",
@@ -19,6 +20,7 @@ const Data = {
                 title:"YT video collector",
                 description:"A Video Collector for Youtube",
                 techs:["React", "Axios", "React-icons", "uniqid"],
+                alt: "website screenshot",
                 links:{
                     live: "https://yt-video-collector.netlify.app",
                     repo: "https://github.com/devCluna/valorant-landing-page-concept"
@@ -29,6 +31,7 @@ const Data = {
                 title:"React Reign test (HackerNews)",
                 description:"A meta search result powered by HackerNews API",
                 techs:["React", "Redux", "Jest", "Axios", "logger", "Thunk"],
+                alt: "website screenshot",
                 links:{
                     live: "https://react-reign-test.netlify.app",
                     repo: "https://github.com/devCluna/react_reign_test"
@@ -39,6 +42,7 @@ const Data = {
                 title:"Volanti Single-Page",
                 description:"Responsive single page for Low cost Airplanes transport Services",
                 techs:["React", "Styled-components", "React-Scroll", "React-icons", "Router"],
+                alt: "website screenshot",
                 links:{
                     live: "https://reverent-swanson-845540.netlify.app",
                     repo: "https://github.com/devCluna/volanti-react-responsive-frontpage-devcluna"
@@ -49,6 +53,7 @@ const Data = {
                 title:"The Dictionary",
                 description:"An English Dictionary supported by Free Dictionary API",
                 techs:["React", "Redux", "Axios", "React-icons", "uniqid", "formik"],
+                alt: "website screenshot",
                 links:{
                     live: "https://the-dictionary-react.netlify.app",
                     repo: "https://github.com/devCluna/the_dictionary"
@@ -61,6 +66,7 @@ const Data = {
                 title:"Cyberpink glitch",
                 description:"A cyberPunk logo concept",
                 techs:["react", "node"],
+                alt: "website screenshot",
                 links:{
                     live: "https://cyberpunk-logo.netlify.app/",
                     repo: "https://github.com/devCluna/CyberPunkLogo"
