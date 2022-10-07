@@ -1,5 +1,4 @@
 .about-section{
-    background-color: aqua;
     width: 100%;
     max-width: 1000px;
     display: flex;
@@ -10,6 +9,7 @@
 .left-ab{
     width: 100%;
     max-width: 800px;
+    margin-right: var(--space-2xs);
 }
 
 .capital{
@@ -23,10 +23,11 @@
 
 .right-ab{
     width: 200px;
-    background-color: blueviolet;
     margin-left: var(--space-xs);
     display: flex;
     flex-direction: column;
+    border-left: 1px solid var(--bg-button-color);
+    
 }
 
 .info-ab{
@@ -43,13 +44,23 @@
 }
 
 .info-ab span{
-    
     font-size: var(--step-0);
+}
+
+.info-ab a{
+    color: var(--font-title-color);
+    font-style: italic;
+}
+
+.info-ab a:hover{
+    color: var(--font-marked-color);
 }
 
 .info-title{
     margin-top: var(--space-2xs);
     font-size: var(--step--1);
+    color: var(--font-marked-color);
+    font-weight: bold;
 }
 
 .logo-ab{
@@ -62,12 +73,18 @@
     margin-bottom: var(--space-xs);
     font-weight: bold;
     font-size: var(--step-0);
+    color: var(--font-marked-color);
 }
 
 .logo-item{
     margin-bottom: var(--space-2xs);
     cursor: pointer;
     font-size: var(--step-2);
+    color: var(--font-title-color);
+}
+
+.logo-item:hover, .logo-item:active{
+    color: var(--font-marked-color)
 }
 
 @media only screen and (max-width: 600px) {
@@ -82,6 +99,7 @@
         width: 100%;
         margin-left: 0;
         margin-top: var(--space-s);
+        
         justify-content: center;
     }
 
@@ -93,7 +111,7 @@
     }
 
     .info-ab{
-        
+        margin-bottom: var(--space-xl);
     }
     
     .logo-ab{
@@ -102,6 +120,8 @@
         width: 100%;
         justify-content: space-around;
         font-size: var(--step-1);
+        margin-top: var(--space-s);
+        color: var(--font-title-color);
     }
 
     .logo-title{
@@ -111,6 +131,7 @@
     .logo-item{
         margin-bottom: 0;
         margin-top: 0.5em;
+        
         /* margin-left: 1.9em; */
     }
 }

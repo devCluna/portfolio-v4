@@ -27,15 +27,15 @@ const About = () => {
         </div>
         <div className='info-holder'>
             <div className='info-ab'>
-                <img className='info-img' src="https://lastfm.freetls.fastly.net/i/u/174s/61a6649f35502d1674c91a74205326b5.jpg"/>
-                <span className='info-title'>GAMING</span>
-                <span >Exit to darkness</span>
+                <img className='info-img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png"/>
+                <span  className='info-title'>My fav Tracks</span>
+                <a href='https://open.spotify.com/playlist/37i9dQZF1EUMDoJuT8yJsl?si=ea6d84e259664159&nd=1' target="_blank">Spotify tracks</a>
             </div>
 
             <div className='info-ab'>
-                <img className='info-img' src="https://lastfm.freetls.fastly.net/i/u/174s/61a6649f35502d1674c91a74205326b5.jpg"/>
-                <span className='info-title'>GAMING</span>
-                <span>Exit to darkness</span>
+                <img className='info-img' src="https://image.api.playstation.com/vulcan/img/rnd/202009/2913/TQKAd8U6hnIFQIIcz6qnFh8C.png"/>
+                <span className='info-title'>My fav Game</span>
+                <a href='https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/' target="__blank">The Witcher 3</a>
             </div>
         </div>
             
