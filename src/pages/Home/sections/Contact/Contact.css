@@ -1,0 +1,22 @@
+.contact-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.contact-comment{
+
+}
+
+
+.contact-title{
+    margin-bottom: var(--space-s);
+}
+
+.contact-p{
+    text-align: center;
+    margin-bottom: var(--space-s);
+}
