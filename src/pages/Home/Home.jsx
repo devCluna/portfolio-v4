@@ -6,6 +6,12 @@ import Contact from './sections/Contact/Contact'
 import Projects from './sections/Projects/Projects'
 import About from './sections/About/About'
 import Work from './sections/Work/Work'
+import Typed from 'react-typed';
+import AutoTyping, { BlinkCursor } from 'react-auto-typing'
+
+
+import resume from '../../assets/resume.pdf'
+import Button from '../../components/Button'
 
 const Home = () => {
     const [mobileMenuStatus, setMobileMenuStatus] = useState(false)
@@ -90,17 +96,14 @@ const Home = () => {
                 </li>
 
                 <li className='mobile-li'>
-                    <Link 
+                    <a 
                         onClick={()=>setMobileMenuStatus(!mobileMenuStatus)}
                         className='mobile-link'
-                        to="resume"
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact="true"
+                        href={resume}
+                        target='_blank'
                     >
                             Resume
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -175,16 +178,13 @@ const Home = () => {
                     </li>
 
                     <li className='desktop-li'>
-                        <Link 
-                            to="resume"
+                        <a 
+                            href={resume}
                             className='desktop-link'
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            exact="true"
+                            target="_blank"
                         >
                                 Resume
-                        </Link>
+                        </a>
                     </li>
                     
                     <li className='desktop-li'>
@@ -198,12 +198,39 @@ const Home = () => {
 
       <main>
         <section className='section hero-section'>
+            <div>
+            
+                
+            </div>
             <span className='comment'>Hello World!</span>
-            <h1 className='tech-stack'>Cristhian Luna</h1>
-            <h3 className='tech-stack'>ReactJS, Developer</h3>
-            <h4 className='dev-name'>Rocking since 1997</h4>
+            <h1 className='dev-name'>Cristhian Luna</h1>
+            <h3 className='tech-stack'><Typed
+                className='typed'
+                strings={[
+                    'MERN stack',
+                    'React JS, developer',
+                    'Next JS, developer',
+                    'Frontend developer',
+                    'JAM stack'
+                ]}
+                typeSpeed={40}
+                backSpeed={50}
+                loop 
+            /></h3>
+            <h4 className='subtitle'>Rocking since 1997</h4>
             <p className='paragraph'>I'm a frontend developer aimed to build & desing sometimes web apps, static layouts I'm a frontend developer aimed to buildI'm a frontend developer aimed to build I'm a frontend developer aimed to buildI'm a frontend developer aimed to buildI'm a frontend developer aimed to build</p>
-            <button>Checkout my work!</button>
+            <Link 
+                to="projects-section"
+                
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                >
+                    <Button context={'Checkout my work!'}/>
+            </Link>
+
+            
         </section>
 
         <About id="about-section"/>

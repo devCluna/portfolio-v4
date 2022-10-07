@@ -8,7 +8,9 @@
 
 
 .contact-comment{
-
+    color: var(--font-marked-color);
+    font-weight: bold;
+    font-size: var(--step-1);
 }
 
 

@@ -1,5 +1,4 @@
 .projects-section{
-    background-color: rgb(196, 196, 196);
     width: 100%;
     height: 800px;
     max-width: 1000px;
@@ -12,21 +11,89 @@
 
 .project{
     margin-bottom: var(--space-s);
-    background-color: yellow;
+}
+
+.project span{
+    color: var(--font-marked-color);
+    font-weight: bold;
+}
+
+.project-info{
+    opacity: 0;
+    user-select: none;
+    position: absolute;
+    width: 80%;
+    height: 75%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-2xs);
+}
+
+.project-info span{
+    cursor: pointer;
+} 
+
+.project-info p{
+    margin-top: var(--space-2xs);
+    color: var(--font-title-color);
+    font-size: var(--step--2);
+}
+
+.project-info:hover{
+    opacity: 1;
+}
+
+.techs-holder{
+    margin-top: var(--space-3xs);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.techs-holder small{
+    margin-left: 0.5em;
+    color: var(--font-marked-color);
+}
+
+.icons-holder{
+    margin-top: var(--space-2xs);
+    color: var(--font-title-color);
+}
+
+.icon-live{
+    font-size: var(--step-1);
+    cursor: pointer;
+}
+
+.icon-live:hover{
+    color: var(--bg-button-color);
+}
+
+.icon-repo:hover{
+    color: var(--bg-button-color);
+}
+
+.icon-repo{
+    font-size: var(--step-1);
+    cursor: pointer;
+    margin-left: 0.5em;
 }
 
 .slider{
-    background-color: rgb(119, 0, 255);
     height: 250px;
 }
 
 .swiper{
     width: 100%;
     height: 100%;
-    background-color: rgb(43, 255, 0);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after{
+    color: var(--bg-button-color);
 }
 
 .swiper-slide{
@@ -38,5 +105,10 @@
 .option{
     width: 80%;
     height: 180px;
-    background-color: blue;
+}
+
+.option img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

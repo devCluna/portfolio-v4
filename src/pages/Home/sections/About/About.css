@@ -1,0 +1,137 @@
+.about-section{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    padding: 0 var(--space-xs);
+    padding-top: var(--space-3xl);
+}
+
+.left-ab{
+    width: 100%;
+    max-width: 800px;
+    margin-right: var(--space-2xs);
+}
+
+.capital{
+
+}
+
+.left-ab p{
+    margin-top: var(--space-3xs);
+    margin-bottom: var(--space-xs);
+}
+
+.right-ab{
+    width: 200px;
+    margin-left: var(--space-xs);
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--bg-button-color);
+    
+}
+
+.info-ab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--space-s);
+}
+
+
+.info-img{
+    width: 80px;
+    height: 80px;
+}
+
+.info-ab span{
+    font-size: var(--step-0);
+}
+
+.info-ab a{
+    color: var(--font-title-color);
+    font-style: italic;
+}
+
+.info-ab a:hover{
+    color: var(--font-marked-color);
+}
+
+.info-title{
+    margin-top: var(--space-2xs);
+    font-size: var(--step--1);
+    color: var(--font-marked-color);
+    font-weight: bold;
+}
+
+.logo-ab{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--step-1);
+}
+
+.logo-title{
+    margin-bottom: var(--space-xs);
+    font-weight: bold;
+    font-size: var(--step-0);
+    color: var(--font-marked-color);
+}
+
+.logo-item{
+    margin-bottom: var(--space-2xs);
+    cursor: pointer;
+    font-size: var(--step-2);
+    color: var(--font-title-color);
+}
+
+.logo-item:hover, .logo-item:active{
+    color: var(--font-marked-color)
+}
+
+@media only screen and (max-width: 600px) {
+    .about-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-ab{
+        max-width: 100%;
+    }
+    .right-ab{
+        width: 100%;
+        margin-left: 0;
+        margin-top: var(--space-s);
+        
+        justify-content: center;
+    }
+
+    .info-holder{
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-around;
+    }
+
+    .info-ab{
+        margin-bottom: var(--space-xl);
+    }
+    
+    .logo-ab{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        font-size: var(--step-1);
+        margin-top: var(--space-s);
+        color: var(--font-title-color);
+    }
+
+    .logo-title{
+        margin-bottom: 0;
+    }
+    
+    .logo-item{
+        margin-bottom: 0;
+        margin-top: 0.5em;
+        
+        /* margin-left: 1.9em; */
+    }
+}
