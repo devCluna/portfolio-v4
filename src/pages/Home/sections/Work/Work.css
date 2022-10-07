@@ -1,0 +1,42 @@
+.work-section{
+    background-color: rebeccapurple;
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 150px;
+}
+
+.exp-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp-item{
+    background-color: aqua;
+    width: 100%;
+    max-width: 450px;
+}
+
+.cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+
+
+.col-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-info span{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .exp-wrapper{
+        flex-direction: column;
+    }
+}
