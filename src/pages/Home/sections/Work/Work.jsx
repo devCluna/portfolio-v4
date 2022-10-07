@@ -1,11 +1,12 @@
 import React from 'react'
+import Button from '../../../../components/Button'
 import './Work.css'
 
 const Work = () => {
   return (
     <section className='work-section'>
       <div className='cv'>
-        <button>Download CV</button>
+      <Button context="Download CV"/>
       </div>
 
       <div className='exp-wrapper'>
@@ -69,7 +70,7 @@ const Work = () => {
     </div>
 
     <div className='cv'>
-        <button>Download CV</button>
+        <Button context="Download CV"/>
     </div>
 
     </section>
