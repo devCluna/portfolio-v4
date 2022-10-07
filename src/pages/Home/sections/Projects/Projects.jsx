@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <section className=' projects-section'>
         <div className='project'>
-            <span>Apps</span>
+            <span>Apps ({Data.projects.apps.length})</span>
             <div className='slider'>
                 <Swiper
                     direction='horizontal'
@@ -69,7 +69,7 @@ const Projects = () => {
                                     <Repo onClick={()=>window.open(app.links.demo, '_blank')} className='icon-repo'/>
                                 </div>
                             </div>
-                            <img src={`https://shot.screenshotapi.net/screenshot?token=VWTC8PF-5FFMXB1-PFRKZ3K-M39KBDN&url=${app.links.live}&output=image&file_type=png&wait_for_event=load&delay=1000`}/>
+                            <img alt={app.alt} src={`https://shot.screenshotapi.net/screenshot?token=VWTC8PF-5FFMXB1-PFRKZ3K-M39KBDN&url=${app.links.live}&output=image&file_type=png&wait_for_event=load&delay=1000`}/>
                         </div>
                         </SwiperSlide>
                     ))}
@@ -79,7 +79,7 @@ const Projects = () => {
         </div>
 
         <div className='project'>
-            <span>Pens</span>
+            <span>Pens ({Data.projects.pens.length})</span>
             <div className='slider'>
                 <Swiper
                     direction='horizontal'
@@ -115,7 +115,7 @@ const Projects = () => {
                                     <Repo className='icon-repo'/>
                                 </div>
                             </div>
-                            <img src={`https://shot.screenshotapi.net/screenshot?token=VWTC8PF-5FFMXB1-PFRKZ3K-M39KBDN&url=${pen.links.live}&output=image&file_type=png&wait_for_event=load&delay=1000`}/>
+                            <img alt={pen.alt} src={`https://shot.screenshotapi.net/screenshot?token=VWTC8PF-5FFMXB1-PFRKZ3K-M39KBDN&url=${pen.links.live}&output=image&file_type=png&wait_for_event=load&delay=1000`}/>
                         </div>
                         </SwiperSlide>
                     ))}
