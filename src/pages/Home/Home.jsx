@@ -5,6 +5,7 @@ import {GiHamburgerMenu as MobileMenu} from 'react-icons/gi'
 import Contact from './sections/Contact/Contact'
 import Projects from './sections/Projects/Projects'
 import About from './sections/About/About'
+import Work from './sections/Work/Work'
 
 const Home = () => {
     const [mobileMenuStatus, setMobileMenuStatus] = useState(false)
@@ -206,9 +207,7 @@ const Home = () => {
         </section>
 
         <About id="about-section"/>
-        <section id='work-section'>
-            Experience
-        </section>
+        <Work id="work-section"/>
         <Projects id="projects-section"/>
         <Contact id="contact-section"/>
       </main>
