@@ -1,0 +1,6 @@
+footer{
+    font-size: var(--step-5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
