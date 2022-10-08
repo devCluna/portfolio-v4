@@ -3,6 +3,7 @@ import uniqid from 'uniqid'
 const Data = {
     devName:"devCluna",
     name:"Cristhian Luna",
+    yearDate:"1997",
     techs:[
         'MERN stack',
         'React JS, developer',
@@ -92,8 +93,6 @@ const Data = {
         },
     ],
     
-    yearDate:"1997",
-    resume :"./src/assets/portfolio_eng_ver_1.pdf",
     socialMedia:{
         spotify:"https://open.spotify.com/playlist/37i9dQZF1EUMDoJuT8yJsl?si=ea6d84e259664159&nd=1",
         game:{
