@@ -1,12 +1,13 @@
 import React from 'react'
-import Button from '../../../../components/Button'
+import Button from '../../../../components/Button/Button'
 import './Work.css'
 import Data from '../../../../utils/Dummy'
+import resume from '../../../../assets/portfolio_eng_ver_1.pdf'
 
 const Work = () => {
   return (
     <section className='work-section'>
-      <div onClick={()=> window.open(Data.resume ,'_blank')} className='cv'>
+      <div onClick={()=> window.open(resume ,'_blank')} className='cv'>
       <Button  context="Download CV"/>
       </div>
 
@@ -67,7 +68,7 @@ const Work = () => {
         </div>
     </div>
 
-    <div className='cv' onClick={()=> window.open(Data.resume ,'_blank')}>
+    <div className='cv' onClick={()=> window.open(resume ,'_blank')}>
         <Button context="Download CV"/>
     </div>
 
