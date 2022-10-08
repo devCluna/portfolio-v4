@@ -7,11 +7,9 @@ import Projects from './sections/Projects/Projects'
 import About from './sections/About/About'
 import Work from './sections/Work/Work'
 import Typed from 'react-typed';
-import AutoTyping, { BlinkCursor } from 'react-auto-typing'
 
-
-import resume from '../../assets/resume.pdf'
 import Button from '../../components/Button'
+import Data from '../../utils/Dummy'
 
 const Home = () => {
     const [mobileMenuStatus, setMobileMenuStatus] = useState(false)
@@ -35,7 +33,7 @@ const Home = () => {
                         spy={true}
                         exact="true"
                     >
-                            devCluna
+                           {Data.devName}
                     </Link>
                 </li>
 
@@ -99,7 +97,7 @@ const Home = () => {
                     <a 
                         onClick={()=>setMobileMenuStatus(!mobileMenuStatus)}
                         className='mobile-link'
-                        href={resume}
+                        href={Data.resume}
                         target='_blank'
                     >
                             Resume
@@ -121,7 +119,7 @@ const Home = () => {
                             spy={true}
                             exact="true"
                         >
-                                devCluna
+                                {Data.devName}
                         </Link>
                     </li>
 
@@ -179,7 +177,7 @@ const Home = () => {
 
                     <li className='desktop-li'>
                         <a 
-                            href={resume}
+                            href={Data.resume}
                             className='desktop-link'
                             target="_blank"
                         >
@@ -203,22 +201,16 @@ const Home = () => {
                 
             </div>
             <span className='comment'>Hello World!</span>
-            <h1 className='dev-name'>Cristhian Luna</h1>
+            <h1 className='dev-name'>{Data.name}</h1>
             <h3 className='tech-stack'><Typed
                 className='typed'
-                strings={[
-                    'MERN stack',
-                    'React JS, developer',
-                    'Next JS, developer',
-                    'Frontend developer',
-                    'JAM stack'
-                ]}
+                strings={Data.techs}
                 typeSpeed={40}
                 backSpeed={50}
                 loop 
             /></h3>
-            <h4 className='subtitle'>Rocking since 1997</h4>
-            <p className='paragraph'>I'm a frontend developer aimed to build & desing sometimes web apps, static layouts I'm a frontend developer aimed to buildI'm a frontend developer aimed to build I'm a frontend developer aimed to buildI'm a frontend developer aimed to buildI'm a frontend developer aimed to build</p>
+            <h4 className='subtitle'>Rocking since {Data.yearDate}</h4>
+            <p className='paragraph'>I'm a self thaught web developer aimed to build & desing sometimes web apps, static layouts.</p>
             <Link 
                 to="projects-section"
                 
