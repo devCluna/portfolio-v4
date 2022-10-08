@@ -1,7 +1,111 @@
 import uniqid from 'uniqid'
 
 const Data = {
-
+    devName:"devCluna",
+    name:"Cristhian Luna",
+    techs:[
+        'MERN stack',
+        'React JS, developer',
+        'Next JS, developer',
+        'Frontend developer',
+        'JAM stack'
+    ],
+    experiences:[
+        {
+            id:uniqid(),
+            title: "Fullstack MERN | Freelance",
+            date: "March 2021 - until now",
+            description:[
+                {
+                    id: uniqid(),
+                    text:"As a Freelance I give support and web development services to different businesses. I collaborate with different IT teams attending their tickets and giving solutions, fixing bugs, deploying applications, documenting, or developing features sometimes."
+                }
+            ],
+            customers: [
+                {
+                    id:uniqid(),
+                    text:"Fulltime Force (USA)"
+                },
+                {
+                    id:uniqid(),
+                    text:"Gunderson (USA)"
+                },
+                {
+                    id:uniqid(),
+                    text:"Viafasken (USA)"
+                }
+            ]
+        },
+        {
+            id:uniqid(),
+            title: "Fullstack MERN | BESE",
+            date: "May 2020 -Sept 2020",
+            description:[
+                {
+                    id: uniqid(),
+                    text:"In this role, develop different functional modules for inventory management, user control (login, registration, password recovery), and collaborate in the building of a Restful API for server requests. Also, I help to document the user jorney."
+                }
+            ],
+            customers: []
+        },
+        {
+            id:uniqid(),
+            title: "Frontend Developer | Kninos",
+            date: "March 2019 - Feb 2020",
+            description:[
+                {
+                    id: uniqid(),
+                    text:"Participated in the building of an application for pet record's management , owners, medical staff, clinical history, medications, veterinary consultations, inventory; etc."
+                }
+            ],
+            customers: []
+        },
+    ],
+    education:[
+        {
+            id:uniqid(),
+            title:"System Engineering",
+            date:"2022",
+            description:"ULEAM, Computer Science Faculty"
+        },
+        {
+            id:uniqid(),
+            title:"Technical Degree",
+            date:"2016",
+            description:"Lev Vigotsky, Tech school"
+        },
+    ],
+    activities:[
+        {
+            id:uniqid(),
+            title:"C++ Programmer",
+            subtitle:"Wireless Irrigation System",
+            date:"2018",
+            description:"Developed a Irrigation System with arduino & raspberry Pi, who tracks & record conductivity, humitidy in the envirorment and runs by itself"
+        },
+        {
+            id:uniqid(),
+            title:"Python Programmer",
+            subtitle:"Face recognition app",
+            date:"2019",
+            description:"Participated in a Hacktaton, building a face recognition system built form scrath with no external libraries"
+        },
+    ],
+    
+    yearDate:"1997",
+    resume :"./src/assets/portfolio_eng_ver_1.pdf",
+    socialMedia:{
+        spotify:"https://open.spotify.com/playlist/37i9dQZF1EUMDoJuT8yJsl?si=ea6d84e259664159&nd=1",
+        game:{
+            img:"https://image.api.playstation.com/vulcan/img/rnd/202009/2913/TQKAd8U6hnIFQIIcz6qnFh8C.png",
+            name:"The Witcher 3",
+            link:"https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/"
+        },
+        twitter: "https://twitter.com/DevCLuna",
+        github: "https://github.com/devCluna",
+        codepen: "https://codepen.io/DevCluna",
+        linkedin: "https://www.linkedin.com/in/devcluna"
+    },
     projects:{
         apps:[
             {
