@@ -11,7 +11,7 @@ const Footer = () => {
         <span>Copyright © <a onClick={()=> window.open(socialMedia.linkedin)}>devCluna</a></span>
         <div className='social-holder'>
             <span className='social-media'>Social Media</span>
-            <div className='icons-holder'>
+            <div className='icons-holder-footer'>
                 <Github className='foot-icon'  onClick={()=> window.open(socialMedia.github)}/>
                 <Twitter className='foot-icon'  onClick={()=> window.open(socialMedia.twitter)}/>
                 <Linkedin className='foot-icon'  onClick={()=> window.open(socialMedia.linkedin)}/>
