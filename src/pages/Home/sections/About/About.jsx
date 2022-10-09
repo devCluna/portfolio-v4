@@ -23,9 +23,9 @@ const About = () => {
             <p className='logo-title'>Social Media</p>
             <div className='logo-ab'>
                 <Twitter onClick={()=>window.open(socialMedia.twitter, "_blank")}  className='logo-item'/>
-                <Github onClick={()=>window.open(socialMedia.twitter, "_blank")}  className='logo-item'/>
-                <Codepen onClick={()=>window.open(socialMedia.twitter, "_blank")} className='logo-item'/>
-                <Linkedin onClick={()=>window.open(socialMedia.twitter, "_blank")}  className='logo-item'/>
+                <Github onClick={()=>window.open(socialMedia.github, "_blank")}  className='logo-item'/>
+                <Codepen onClick={()=>window.open(socialMedia.codepen, "_blank")} className='logo-item'/>
+                <Linkedin onClick={()=>window.open(socialMedia.linkedin, "_blank")}  className='logo-item'/>
             </div>
         </div>
         <div className='info-holder'>
