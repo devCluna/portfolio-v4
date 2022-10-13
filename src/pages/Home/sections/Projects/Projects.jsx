@@ -102,7 +102,7 @@ const Projects = () => {
                         <SwiperSlide key={pen.id}>
                         <div className='option'>
                             <div className='project-info'>
-                                <span>{pen.title}</span>
+                                <span onClick={()=>window.open(pen.links.live, '_blank')}>{pen.title}</span>
                                 <p>{pen.description}</p>
                                 <div className='techs-holder'>
                                     {pen.techs.map(tech=>(
@@ -111,8 +111,8 @@ const Projects = () => {
                                 </div>
 
                                 <div className='icons-holder'>
-                                    <Live className='icon-live'/>
-                                    <Repo className='icon-repo'/>
+                                    <Live onClick={()=>window.open(pen.links.live, '_blank')}  className='icon-live'/>
+                                    <Repo onClick={()=>window.open(pen.links.repo, '_blank')}  className='icon-repo'/>
                                 </div>
                             </div>
                             <img alt={pen.alt} src={`https://shot.screenshotapi.net/screenshot?token=VWTC8PF-5FFMXB1-PFRKZ3K-M39KBDN&url=${pen.links.live}&output=image&file_type=png&wait_for_event=load&delay=1000`}/>

@@ -25,7 +25,7 @@ const Data = {
             customers: [
                 {
                     id:uniqid(),
-                    text:"Fulltime Force (USA)"
+                    text:"Fulltime Force (Peru)"
                 },
                 {
                     id:uniqid(),
@@ -171,7 +171,7 @@ const Data = {
                 techs:["react", "node"],
                 alt: "website screenshot",
                 links:{
-                    live: "https://cyberpunk-logo.netlify.app/",
+                    live: "https://cyberpunk-logo.netlify.app",
                     repo: "https://github.com/devCluna/CyberPunkLogo"
                 }
             }
