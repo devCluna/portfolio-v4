@@ -7,7 +7,6 @@ const Data = {
     techs:[
         'MERN stack',
         'React JS, developer',
-        'Next JS, developer',
         'Frontend developer',
         'JAM stack'
     ],
