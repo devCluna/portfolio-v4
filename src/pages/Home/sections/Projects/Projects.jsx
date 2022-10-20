@@ -66,7 +66,7 @@ const Projects = () => {
 
                                 <div className='icons-holder'>
                                     <Live onClick={()=>window.open(app.links.live, '_blank')}  className='icon-live'/>
-                                    <Repo onClick={()=>window.open(app.links.demo, '_blank')} className='icon-repo'/>
+                                    <Repo onClick={()=>window.open(app.links.repo, '_blank')} className='icon-repo'/>
                                 </div>
                             </div>
                             <img alt={app.alt} src={`https://shot.screenshotapi.net/screenshot?token=VWTC8PF-5FFMXB1-PFRKZ3K-M39KBDN&url=${app.links.live}&output=image&file_type=png&wait_for_event=load&delay=1000`}/>
