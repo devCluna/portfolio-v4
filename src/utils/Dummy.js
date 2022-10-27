@@ -165,13 +165,24 @@ const Data = {
         pens:[
             {
                 id: uniqid(),
-                title:"Cyberpink glitch",
+                title:"Cyberpunk glitch",
                 description:"A cyberPunk logo concept",
                 techs:["react", "node"],
                 alt: "website screenshot",
                 links:{
                     live: "https://cyberpunk-logo.netlify.app",
                     repo: "https://github.com/devCluna/CyberPunkLogo"
+                }
+            },
+            {
+                id: uniqid(),
+                title:"Matrix Rain",
+                description:"A Matrix Rain effect",
+                techs:["html", "css", "javascript"],
+                alt: "website screenshot",
+                links:{
+                    live: "https://codepen.io/DevCluna/pen/bGKNMow",
+                    repo: "https://codepen.io/DevCluna/pen/bGKNMow"
                 }
             }
         ]
