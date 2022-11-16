@@ -114,7 +114,7 @@ const Data = {
                 techs:["react", "node"],
                 links:{
                     live: "https://valorant-landing-page-concept.netlify.app",
-                    repo: "https://github.com/devCluna/yt-video-collector"
+                    repo: "https://github.com/devCluna/valorant-landing-page-concept"
                 }
             },
             {
@@ -125,7 +125,7 @@ const Data = {
                 alt: "website screenshot",
                 links:{
                     live: "https://yt-video-collector.netlify.app",
-                    repo: "https://github.com/devCluna/valorant-landing-page-concept"
+                    repo:  "https://github.com/devCluna/yt-video-collector"
                 }
             },
             {
