@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 import {GiHamburgerMenu as MobileMenu} from 'react-icons/gi'
 import Data from '../../utils/Dummy'
 import './Header.css'
-import resume from '../../assets/portfolio_eng_ver_1.pdf'
+import resume from '../../assets/resume.pdf'
 
 const Header = () => {
     const [mobileMenuStatus, setMobileMenuStatus] = useState(false)
