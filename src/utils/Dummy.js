@@ -119,13 +119,24 @@ const Data = {
             },
             {
                 id: uniqid(),
-                title:"YT video collector",
-                description:"A Video Collector for Youtube",
-                techs:["React", "Axios", "React-icons", "uniqid"],
+                title:"Volanti Single-Page",
+                description:"Responsive single page for Low cost Airplanes transport Services",
+                techs:["React", "Styled-components", "React-Scroll", "React-icons", "Router"],
                 alt: "website screenshot",
                 links:{
-                    live: "https://yt-video-collector.netlify.app",
-                    repo:  "https://github.com/devCluna/yt-video-collector"
+                    live: "https://reverent-swanson-845540.netlify.app",
+                    repo: "https://github.com/devCluna/volanti-react-responsive-frontpage-devcluna"
+                }
+            },
+            {
+                id: uniqid(),
+                title:"Accelerator App landing page",
+                description:"Responsive single page for Accelerator App",
+                techs:["React", "Redux", "Axios", "React-icons", "uniqid", "formik"],
+                alt: "website screenshot",
+                links:{
+                    live: "https://gatsby-accelerator-app-landing-page.vercel.app",
+                    repo: "https://github.com/devCluna/gatsby-accelerator-app-landing-page"
                 }
             },
             {
@@ -141,15 +152,16 @@ const Data = {
             },
             {
                 id: uniqid(),
-                title:"Volanti Single-Page",
-                description:"Responsive single page for Low cost Airplanes transport Services",
-                techs:["React", "Styled-components", "React-Scroll", "React-icons", "Router"],
+                title:"YT video collector",
+                description:"A Video Collector for Youtube",
+                techs:["React", "Axios", "React-icons", "uniqid"],
                 alt: "website screenshot",
                 links:{
-                    live: "https://reverent-swanson-845540.netlify.app",
-                    repo: "https://github.com/devCluna/volanti-react-responsive-frontpage-devcluna"
+                    live: "https://yt-video-collector.netlify.app",
+                    repo:  "https://github.com/devCluna/yt-video-collector"
                 }
             },
+            
             {
                 id: uniqid(),
                 title:"The Dictionary",
